@@ -1,0 +1,10 @@
+The File is too big to upload so i have attached the code and the link of the exact dataset tht i have used in this Task
+Link: https://www.kaggle.com/datasets/hijest/genre-classification-dataset-imdb
+
+Code:
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("hijest/genre-classification-dataset-imdb")
+
+print("Path to dataset files:", path)
