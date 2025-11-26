@@ -1,1 +1,11 @@
+The Files are too bg to upload so i have shared the link as well as the code for the dataset
 
+Link: https://www.kaggle.com/datasets/kartik2112/fraud-detection
+
+Code: 
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("kartik2112/fraud-detection")
+
+print("Path to dataset files:", path)
