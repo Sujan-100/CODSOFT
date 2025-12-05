@@ -1,0 +1,11 @@
+The dataset is lager so it is ubable to upload it here
+Link of the Dataset:https: //www.kaggle.com/datasets/shantanudhakadd/bank-customer-churn-prediction
+
+or replace the above code as it is to import the dataset in online platforms like colab
+Code:
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("shantanudhakadd/bank-customer-churn-prediction")
+
+print("Path to dataset files:", path)
