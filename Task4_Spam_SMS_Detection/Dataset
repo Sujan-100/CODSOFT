@@ -1,0 +1,11 @@
+The dataset is too big to upload so i have provided the link as well as the code for ypur reference to use it in your code
+
+Link: https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset
+
+code: 
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("uciml/sms-spam-collection-dataset")
+
+print("Path to dataset files:", path)
